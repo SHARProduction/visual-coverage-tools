@@ -1,0 +1,20 @@
+{
+  "frames": [
+    {
+      "sequence": 1,
+      "id": "A"
+    },
+    {
+      "sequence": 2,
+      "id": "B"
+    },
+    {
+      "sequence": 4,
+      "id": "D"
+    },
+    {
+      "sequence": 4,
+      "id": "D2"
+    }
+  ]
+}

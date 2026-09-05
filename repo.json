@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "repository": "visual-coverage-tools",
+  "state": "LOCAL_READY",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "assets": [
+    {
+      "asset_id": "shar-pe400-w11-209",
+      "slug": "shot-list-coverage-validator",
+      "title": "Shot List Coverage Validator",
+      "title_ru": "Валидатор покрытия шот-листа",
+      "family": "visual_coverage",
+      "purpose": "Checks required scenes and deliverable ratios against a shot list.",
+      "purpose_ru": "Сверяет обязательные сцены и форматы выдачи с шот-листом.",
+      "code_license": "MIT",
+      "taxonomy_and_synthetic_fixtures_license": "CC-BY-4.0",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "state": "PLANNED"
+    },
+    {
+      "asset_id": "shar-pe400-w11-210",
+      "slug": "storyboard-sequence-gap-detector",
+      "title": "Storyboard Sequence Gap Detector",
+      "title_ru": "Детектор пропусков в сториборде",
+      "family": "visual_coverage",
+      "purpose": "Finds missing and duplicate storyboard sequence numbers.",
+      "purpose_ru": "Находит пропущенные и повторяющиеся номера кадров сториборда.",
+      "code_license": "MIT",
+      "taxonomy_and_synthetic_fixtures_license": "CC-BY-4.0",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "state": "PLANNED"
+    }
+  ]
+}
