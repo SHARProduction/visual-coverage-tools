@@ -1,0 +1,20 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Детектор пропусков в сториборде · SHAR Production</title><meta name="description" content="Находит пропущенные и повторяющиеся номера кадров сториборда."><meta name="robots" content="index,follow"><link rel="stylesheet" href="../styles.css"><script type="module" src="../app.mjs"></script></head><body data-slug="storyboard-sequence-gap-detector"><nav><a class="brand" href="https://sharprod.com/"><b>SHAR</b> Production</a><a href="../en/">EN</a></nav><main><h1>Детектор пропусков в сториборде</h1><p class="lead">Находит пропущенные и повторяющиеся номера кадров сториборда.</p><p class="note">Обработка выполняется локально в браузере. Используйте неконфиденциальные плановые данные.</p><div class="grid"><section><textarea id="input" aria-label="JSON input">{
+  "frames": [
+    {
+      "sequence": 1,
+      "id": "A"
+    },
+    {
+      "sequence": 2,
+      "id": "B"
+    },
+    {
+      "sequence": 4,
+      "id": "D"
+    },
+    {
+      "sequence": 4,
+      "id": "D2"
+    }
+  ]
+}</textarea><button id="run">Проверить</button></section><pre id="output" aria-live="polite"></pre></div><a class="cta" href="https://sharprod.com/brief/?utm_source=shar_public_tools&utm_medium=tool&utm_campaign=storyboard-sequence-gap-detector">Обсудить production-бриф ↗</a></main></body></html>
